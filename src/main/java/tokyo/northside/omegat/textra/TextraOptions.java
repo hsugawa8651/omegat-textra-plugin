@@ -290,8 +290,8 @@ public class TextraOptions {
         String result;
         if (lang.contains("-")) {
             int index = lang.indexOf("-");
-            result = lang.substring(0, index).toLowerCase() + lang
-                    .substring(index, lang.length() - index ).toUpperCase();
+            result = lang.substring(0, index).toLowerCase()
+            + lang.substring(index, lang.length() - index).toUpperCase();
         } else {
             result = lang.toLowerCase();
         }
