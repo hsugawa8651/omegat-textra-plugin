@@ -245,7 +245,13 @@ public class TextraOptions {
      * @return API mode string for target URL.
      */
     public String getModeName() {
-        return mode.name();
+        String myname=mode.name();
+        if (myname == "GENERIC") {
+            return "generalN";
+        } else {
+            return myname;
+        }
+        //return mode.name();
     }
 
     /**
