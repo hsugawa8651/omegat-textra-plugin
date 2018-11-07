@@ -1,5 +1,25 @@
 # NICT TexTra Machine Translation API plugin for OmegaT
 
+## 紹介
+
+これは、
+情報通信研究機構 (NICT) が開発した「みんなの自動翻訳＠TexTra®」を、
+フリーソフトウエアの翻訳メモリ OmegaT から使うためのプラグインです。
+
+2018年11月3日現在の miurahr@github 版は、動作可能な webAPI を呼び出しません。
+動作可能な「汎用NMT」を呼び出すように修正したのが本版です。
+全てのテストは通りません。
+
+https://github.com/miurahr/omegat-textra-plugin
+
+みんなの自動翻訳＠TexTra®
+https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
+
+OmegaT
+http://omegat.org/
+
+## INFO
+
 This is an implementation of OmegaT plugin which support NICT TexTra Machine Translation API.
 
 ## Install
@@ -50,4 +70,3 @@ sudo update-ca-certificates
 ## License
 
 This project is distributed under the GNU general public license version 3 or later.
-
